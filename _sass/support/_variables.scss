@@ -70,10 +70,12 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 $red-400: #c22222 !default;
+
 $red-300-side: rgba(221, 46, 46, .8) !default;
+$blue-300-side: rgba(24, 51, 133, .8) !default;
 
 $body-background-color: $white !default;
-$sidebar-color: $red-300-side !default;
+$sidebar-color: $blue-300-side !default;
 $search-background-color: $white !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
