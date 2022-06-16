@@ -24,7 +24,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/CHCD_NEW_LOGO_ENGLISH_ONLY.png"
+logo: "/assets/images/CHCD_NEW_LOGO_ENGLISH_ONLY_WHITE.png"
 
 # Enable or disable the site search
 # Supports true (default) or false

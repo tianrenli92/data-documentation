@@ -2,6 +2,30 @@
 // The basic two column layout
 //
 
+.side-back {
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("https://raw.githubusercontent.com/chcdatabase/white-paper/gh-pages/assets/images/background-chcd.jpg");
+  background-position: center top;
+  opacity: 1;
+
+  @include mq(md) {
+    flex-wrap: nowrap;
+    position: fixed;
+    width: $nav-width-md;
+    height: 100%;
+    flex-direction: column;
+    border-right: $border $border-color;
+    align-items: flex-end;
+  }
+
+  @include mq(lg) {
+    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    min-width: $nav-width;
+  }
+}
+
 .side-bar {
   z-index: 0;
   display: flex;
@@ -55,7 +79,7 @@
   background-color: $sidebar-color;
 
   @include mq(md) {
-    display: flex;
+    display: none;
     justify-content: space-between;
     height: $header-height;
     background-color: $body-background-color;
@@ -105,7 +129,7 @@
   @include mq(md) {
     height: $header-height;
     max-height: $header-height;
-    border-bottom: $border $border-color;
+    border-bottom: $border $red-400;
   }
 }
 
