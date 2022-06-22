@@ -158,6 +158,9 @@
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
+    @include mq(md) {
+      width: 100% !important;
+    }
   }
 }
 
