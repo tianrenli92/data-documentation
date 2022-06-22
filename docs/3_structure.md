@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Database Design
-nav_order: 2
+title: Data Structure
+nav_order: 3
 ---
 
-# Design of the CHCD
+# Data Structure of the CHCD
 {: .no_toc }
 
 <details open markdown="block">
@@ -43,7 +43,7 @@ The example image and four definitions below offer a basic understanding of the 
 ## Graph Schema
 The CHCD has four main kinds of nodes (i.e. four node labels) in the database: ```:Person```, ```:CorporateEntity```, ```:Institution```, and ```Event```. In addition, there are five kinds of geographic nodes which represent the five different levels of geography in the database: ```:Village```, ```:Township```, ```:County```, ```:Prefecture```, and ```:Province```
 
-These four main nodes and five geographic nodes are connected by seven kinds of relationship (i.e. seven edge labels) in the database: ```:PART_OF```, ```:RELATED_TO```, ```:AFFILIATED_WITH```, ```:PRESENT_AT```, ```:LOCATED_IN```, ```:LINKED_TO```, and ```:INSIDE_OF```.
+These four main nodes and five geographic nodes are connected by seven kinds of relationship (i.e. seven edge labels) in the database: ```:PART_OF```, ```:RELATED_TO```, ```:CONNECTED_TO```, ```:PRESENT_AT```, ```:LOCATED_IN```, ```:LINKED_TO```, and ```:INSIDE_OF```.
 
 The below schema depicts the overall structure of the database by showing what relationships are possible between the various types of nodes.
 
