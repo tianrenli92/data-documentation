@@ -22,7 +22,7 @@ Unlike traditional relational databases, the CHCD runs on the [Neo4j](https://ne
 
 ---
 
-## Via CSV
+## Download CHCD CSVs
 
 CSV files are a widely used and flexible storage option for large datasets. AS such, the CHCD team chose to distribute our database in this format so it can be easily adapted for multiple use-cases. We have also placed it in a Github repository so it is accessible to the general public.
 
@@ -34,13 +34,17 @@ CSV files are a widely used and flexible storage option for large datasets. AS s
 
 The CHCD CSV files can be used in many different applications. However, if you would like to setup a local Neo4j version of the CHCD, follow the below set of instructions.
 
-1. **[Download CHCD CSVs]**(https://github.com/chcdatabase/data): See above.
-2. **[Download and Install Neo4j]**(https://neo4j.com/docs/desktop-manual/current/installation/download-installation/): Follow these instructions to download and install the Neo4j desktop client.
-3. **[Create a Database]**(https://neo4j.com/docs/desktop-manual/current/operations/create-dbms/): Follow these instructions to create a blank graph database. *Note*: Do not start the graph database. If a database has been started, it will interfere with the importation of CSV data.
-4. **Move the CHCD CSVs**: Use the three dot menu icon to open up the import folder (See image below). Place `chcd-v-1-nodes.csv` and `chcd-v-1-rels.csv` into this folder.
-![Opening the Import Folder](https://raw.githubusercontent.com/chcdatabase/data-documentation/gh-pages/assets/images/import.jpg)  
-5. **Run CSV Import Command**: Use the three dot menu icon to open up the terminal for the database (See image below).  
-![Opening the Import Folder](https://raw.githubusercontent.com/chcdatabase/data-documentation/gh-pages/assets/images/terminal.jpg)  
+- **Download CHCD CSV**: See above.
+- **Download and Install Neo4j**: Follow these [instructions](https://neo4j.com/docs/desktop-manual/current/installation/download-installation/) to download and install the Neo4j desktop client.
+- **Create a Database**: Follow these [instructions](https://neo4j.com/docs/desktop-manual/current/operations/create-dbms/) to create a blank graph database. *Note*: Do not start the graph database. If a database has been started, it will interfere with the importation of CSV data.
+- **Move the CHCD CSVs**: Use the three dot menu icon to open up the import folder (See image below). Place `chcd-v-1-nodes.csv` and `chcd-v-1-rels.csv` into this folder.
+  <p style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/chcdatabase/data-documentation/gh-pages/assets/images/import.png" width="350" style="border: 2px black solid"/>
+  </p>
+- **Run CSV Import Command**: Use the three dot menu icon to open up the terminal for the database (See image below).
+  <p style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/chcdatabase/data-documentation/gh-pages/assets/images/terminal.png" width="350" style="border: 2px black solid" />
+  </p>
 Once the terminal is open, run the following commands.
 ```
 cd bin
@@ -48,13 +52,13 @@ cd bin
 ```
 neo4j-admin import --multiline-fields=true --database=neo4j --nodes=../import/chcd-v-1-nodes.csv --relationships=../import/chcd-v-1-rels.csv
 ```
-6. **Start Database**: Press the `Start` button start the database. Then, press the `Open` button to open Neo4j Desktop Browser.
+- **Start Database**: Press the `Start` button start the database. Then, press the `Open` button to open Neo4j Desktop Browser.
 
 ---
 
 ## Neo4j & Cypher
 
-Users must utilize the Cypher language to write queries in Neo4j. Neo4j maintains a full suite of documentation and training to help new users learn the basics of graph databases in general, Neo4j in particular, and the Cypher query language. 
+Users must utilize the Cypher language to write queries in Neo4j. Neo4j maintains a full suite of documentation and training to help new users learn the basics of graph databases in general, Neo4j in particular, and the Cypher query language.
 
 - [Getting Started with Neo4j Resources](https://neo4j.com/developer/getting-started-resources/)
 - [Free GraphAcademy Neo4j Courses](https://graphacademy.neo4j.com/)

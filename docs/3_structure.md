@@ -51,7 +51,7 @@ The below schema depicts the overall structure of the database by showing what r
 
 ### Node Descriptions
 
--```:Person```: these nodes represent human beings. People are at the core of the database and thus they have the most kinds of relationships possible.
+- ```:Person```: these nodes represent human beings. People are at the core of the database and thus they have the most kinds of relationships possible.
 - ```:CorporateEntity```: these nodes represent organizations that do not have a direct geographic footprint. For example, the Society of Jesus is an organization, but it only exists in space through people and institutions.
 - ```:Institution```: these nodes represent organizations that do have a direct geographic footprint.  Common examples in the database include churches, hospitals, and schools.
 - ```:Event```: these nodes represent important events that took place in Chinese Christianity. Events are, by definition, temporary happenings that have specific geographic locations. Examples in the database range from Christian conferences to imperial hunting parties.
@@ -64,8 +64,8 @@ The below schema depicts the overall structure of the database by showing what r
 
 - ```:RELATED_TO```: used to connect ```:Person``` nodes to each other. These can capture any sort of interpersonal relationship.
 - ```:LINKED_TO```: used to connect ```:Institution``` nodes and ```:Event``` nodes. This can capture any sort of relationship between institutions and/or events.
-- ```:CONNECTED_TO```: used to connect ```:CorporateEntity``` nodes to each other. This can capture any sort of relationship between events.
-- ```:INSIDE_OF```: used to connect geography nodes to one another. This allows the database to reflect administrative hierarchy and fuzzy geograpahic data.
+- ```:CONNECTED_TO```: used to connect ```:CorporateEntity``` nodes to each other. This can capture any sort of relationship between corporate entities.
+- ```:INSIDE_OF```: used to connect geography nodes to one another. This allows the database to reflect administrative hierarchy and fuzzy geographic data.
 
 
 ---
@@ -86,7 +86,7 @@ Christian people moved between institutions, institutions changed locations, and
 ### Controls Complex and Fuzzy Geographies
 {: .no_toc }
 
-Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution and Event nodes. These principles, in turn, accomplish two main goals: 1) historical locations with varying levels of geographic specificity can be recorded, and 2) redundancy and errors are reduced. For more information, see the documentation on [Geography](/data-collection/docs/geography).
+Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution and Event nodes. These principles, in turn, accomplish two main goals: 1) historical locations with varying levels of geographic specificity can be recorded, and 2) redundancy and errors are reduced. For more information, see the documentation on [Geography](https://chcdatabase.github.io/data-collection/docs/geography/).
 
 ### Easy and Understandable Query
 {: .no_toc }
