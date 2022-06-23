@@ -36,7 +36,7 @@ Connections to the database via API allows projects to run queries on the databa
 
 ## Properties & Example Query
 
-As a graph database, information is stored in both nodes and relationships. Queries will likely need to utilize both in order to retrieve useful results. While the CHCD does include geographic nodes, the primary nodes of interest in the database have the following labels: `:Person`, `:Institution`, `:CorporateEntity`, and `:Event`. For more information about the various node labels and relationship types in the database. See the [Node Properties Documentation](/docs/4_node_properties) and the [Edge Properties Documentation](/docs/5_edge_properties).
+As a graph database, information is stored in both nodes and relationships. Queries will likely need to utilize both in order to retrieve useful results. While the CHCD does include geographic nodes, the primary nodes of interest in the database have the following labels: `:Person`, `:Institution`, `:CorporateEntity`, and `:Event`. For more information about the various node labels and relationship types in the database. See the [Node Properties Documentation](/data-collection/docs/4_node_properties) and the [Edge Properties Documentation](/data-collection/docs/5_edge_properties).
 
 For example, many projects may be interested in a specific group of people within a specific time frame. If a project was interested in retrieving all the Portuguese individuals between 1600 and 1700 in the database, they might write a query like this:
 
