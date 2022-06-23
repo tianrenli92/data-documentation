@@ -20,6 +20,8 @@ This project breaks new ground in providing quantifiable data about modern Sino-
 
 The CHCD is hosted by the Center for Global Christianity and Mission at Boston University.
 
+The data that makes up the CHCD is distributed under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. This means your are free to use, share, and adapt the data as long as correct attribution is given. To make it easier for
+
 To learn more about the project, see the project website:
 
 [Project Website](https://chcdatabase.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
