@@ -41,13 +41,13 @@ The example image and four definitions below offer a basic understanding of the 
 ---
 
 ## Graph Schema
-The CHCD has four main kinds of nodes (i.e. four node labels) in the database: `:Person`, `:CorporateEntity`, `:Institution`, and `Event`. In addition, there are five kinds of geographic nodes which represent the five different levels of geography in the database: `:Village`, `:Township`, `:County`, `:Prefecture`, and `:Province`
+The CHCD has six main kinds of nodes (i.e. six node labels) in the database: `:Person`, `:CorporateEntity`, `:Institution`, `:Event`, `:Publication`, and `GeneralArea`. In addition, there are five kinds of geographic nodes which represent the five different levels of geography in the database: `:Village`, `:Township`, `:County`, `:Prefecture`, and `:Province`
 
-These four main nodes and five geographic nodes are connected by seven kinds of relationship (i.e. seven edge labels) in the database: `:PART_OF`, `:RELATED_TO`, `:CONNECTED_TO`, `:PRESENT_AT`, `:LOCATED_IN`, `:LINKED_TO`, and `:INSIDE_OF`.
+These six main nodes and five geographic nodes are connected by eight kinds of relationship (i.e. eight edge labels) in the database: `:PART_OF`, `:RELATED_TO`, `:CONNECTED_TO`, `:PRESENT_AT`, `:INVOLVED_WITH`, `:LOCATED_IN`, `:LINKED_TO`, and `:INSIDE_OF`.
 
 The below schema depicts the overall structure of the database by showing what relationships are possible between the various types of nodes.
 
-![CHCD Graph Database Design](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/CHCD_Diagram.jpg)
+![CHCD Graph Database Design](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/CHCD_Schema.png)
 
 ### Node Descriptions
 
@@ -55,15 +55,19 @@ The below schema depicts the overall structure of the database by showing what r
 - `:CorporateEntity`: these nodes represent organizations that do not have a direct geographic footprint. For example, the Society of Jesus is an organization, but it only exists in space through people and institutions.
 - `:Institution`: these nodes represent organizations that do have a direct geographic footprint.  Common examples in the database include churches, hospitals, and schools.
 - `:Event`: these nodes represent important events that took place in Chinese Christianity. Events are, by definition, temporary happenings that have specific geographic locations. Examples in the database range from Christian conferences to imperial hunting parties.
+- `:Publication`: these nodes represent a publication associated with Chinese Christianity. Publications are categorized as either a book, a series, an issue, or ephemera. Examples include memoirs of missionaries, a journal published for a local Chinese audience, catechetical books translated from English into Chinese, or religious posters. 
+- `:GeneralArea`: these nodes represent general locations in China. The database’s controlled geography system does not allow people to have a direct link with a geographic node. Therefore, the General Area nodes are used to indicate a person’s location in China when there is no corresponding institution they were affiliated with. 
+
 
 ### Relationship Descriptions
 
 - `:PART_OF`: used to connect `:Institution`, `:Person`, and `:Event` nodes to `:CorporateEntity` nodes. Enables the ability to capture administrative hierarchies.
-- `:PRESENT_AT`: used to connect `:Person` nodes to `:Institution` and `:Event` nodes. These relationships are the only way individuals receive geographic location in the database.
-- `:LOCATED_IN`: used to connect `:Institution` and `:Event` nodes to geography nodes.
+- `:PRESENT_AT`: used to connect `:Person` nodes to `:Institution`, `:GeneralArea`, and `:Event` nodes. These relationships are the only way individuals receive geographic location in the database.
+- `:LOCATED_IN`: used to connect `:Institution`, `:GeneralArea`, and `:Event` nodes to geography nodes.
 - `:RELATED_TO`: used to connect `:Person` nodes to each other. These can capture any sort of interpersonal relationship.
 - `:LINKED_TO`: used to connect `:Institution` nodes and `:Event` nodes. This can capture any sort of relationship between institutions and/or events.
 - `:CONNECTED_TO`: used to connect `:CorporateEntity` nodes to each other. This can capture any sort of relationship between corporate entities.
+- `:INVOLVED_WITH`: used to connect `:Institution`, `:Person`, `:CorporateEntity`, `:GeneralArea` and `:Event` nodes to `:Publication` nodes. Also used to connect `:Publication` nodes to one another. 
 - `:INSIDE_OF`: used to connect geography nodes to one another. This allows the database to reflect administrative hierarchy and fuzzy geographic data.
 
 
@@ -85,7 +89,7 @@ Christian people moved between institutions, institutions changed locations, and
 ### Controls Complex and Fuzzy Geographies
 {: .no_toc }
 
-Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution and Event nodes. These principles, in turn, accomplish two main goals: 1) historical locations with varying levels of geographic specificity can be recorded, and 2) redundancy and errors are reduced. For more information, see the documentation on [Geography](https://chcdatabase.github.io/data-collection/docs/geography/).
+Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution, GeneralArea, and Event nodes. These principles, in turn, accomplish three main goals: 1) historical locations with varying levels of geographic specificity can be recorded, 2) redundancy and errors are reduced, and 3) changes in an institution's location over time can be easily tracked. For more information, see the documentation on [Geography](https://chcdatabase.github.io/data-collection/docs/geography/).
 
 ### Easy and Understandable Query
 {: .no_toc }
@@ -95,4 +99,4 @@ When users download the database and use its native Neo4j environment, they can 
 ### Easy to Grow
 {: .no_toc }
 
-The four primary node types are not the only kind of historical entities or information that could be placed in a database. While initial data collection will focus on these entities, the graph database structure can grow to include different kinds of information. This future growth will further enrich any data already recorded.
+The six primary node types are not the only kind of historical entities or information that could be placed in a database. While initial data collection will focus on these entities, the graph database structure can grow to include different kinds of information. This future growth will further enrich any data already recorded. The edition of two new node types in verion 2 of the CHCD shows the flexibility that this design affords. 
