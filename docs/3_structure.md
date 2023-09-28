@@ -47,7 +47,7 @@ These six main nodes and five geographic nodes are connected by eight kinds of r
 
 The below schema depicts the overall structure of the database by showing what relationships are possible between the various types of nodes.
 
-![CHCD Graph Database Design](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/CHCD_Schema.png)
+![CHCD Graph Database Design](https://github.com/chcdatabase/data-collection/blob/gh-pages/assets/images/CHCD_Schema.png)
 
 ### Node Descriptions
 
