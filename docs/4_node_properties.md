@@ -151,6 +151,16 @@ Nodes contain the largest array of properties within the database. These propert
 
 ---
 
+### Publication Node Properties
+| KEY | NOTE | TYPE |
+|:-----|:-----|:-----|
+---
+
+### General Area Node Properties
+| KEY | NOTE | TYPE |
+|:-----|:-----|:-----|
+---
+
 ## Geography Node Properties
 
 | KEY | NOTE | TYPE |
