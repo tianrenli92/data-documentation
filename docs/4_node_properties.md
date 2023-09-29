@@ -151,14 +151,44 @@ Nodes contain the largest array of properties within the database. These propert
 
 ---
 
-### Publication Node Properties
+## Publication Node Properties
 | KEY | NOTE | TYPE |
 |:-----|:-----|:-----|
+| **id** | Unique ID for each node. Prefixed with "B_" | STRING |
+| **name_western** | Most common English title of publication. | STRING |
+| **alternative_name_western** | Alternative titles of the publication, including translations in other Western languages. Separated by semi-colons. | STRING |
+| **chinese_name_hanzi** | Most common Chinese title of the publication. | STRING |
+| **alternative_chinese_name_hanzi** | Alternative Chinese titles of the publication. Separated by semi-colons. | STRING |
+| **chinese_name_romanized** | Most common Romanized title of the publication. | STRING |
+| **alternative_chinese_name_romanized** | Alternative Romanized titles of the publication. Sometimes followed by abbreviated romanization system in parenthesis. (e.g. (py) for pinyin, (wg) for wade-giles, etc.). Separated by semicolons. | STRING |
+| **edition** | The edition number of the publication. | INTEGER |
+| **volume_number** | The volume number of the publication. This typically counts how many years a publication has been running. | INTEGER |
+| **issue_number** | The issue number of the publication. This typically counts how many publications have been released in a given year. | INTEGER |
+| **issue_frequency** | How frequently a publication was released. | STRING |
+| **circulation** | Count of how many copies of a particular publication are distributed. | STRING |
+| **format** | Succinct description of the format including physical size, print medium, number of pages, or other information. | STRING |
+| **price** | Records pricing information for publications, including single copy costs, subscription fees, or other relevant pricing details, with a semicolon-separated list of prices and corresponding situations. | STRING |
+| **publication_language** | The original language of publications. Semi-colons used to separate multiple languages. | STRING |
+| **publication_category** | Category of publication. Current options: Book, Series, Issue, Ephemera, Other. | STRING |
+| **publication_subcategory** | Subcategory of publication. | STRING |
+| **start_day** | Start day of publication. If the publication is not a series, these start date fields simply record the publication date | INTEGER |
+| **start_month** | Start month of publication. | INTEGER |
+| **start_year** | Start year of publication. | INTEGER |
+| **end_day** | End day of publication. | INTEGER |
+| **end_month** | End month of publication. | INTEGER |
+| **end_year** | End year of publication. | INTEGER |
+| **notes** | Additional information about the publication. No standard format. | STRING |
+| **source** | Source(s) of information. Separated by semicolons. See documentation on [CHCD Sources](../6_sources.md) for more information. | STRING |
+
 ---
 
-### General Area Node Properties
+## General Area Node Properties
 | KEY | NOTE | TYPE |
 |:-----|:-----|:-----|
+| **id** | Unique ID for each node. Prefixed with "G_" | STRING |
+| **name_western** | Name is the format _General Area (Location)_ where location is the most common English name for the region this area represents. | STRING |
+| **alternative_name_western** | Other names for the location in Western languages. | STRING |
+
 ---
 
 ## Geography Node Properties
