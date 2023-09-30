@@ -163,6 +163,9 @@ Below is a list of all sources currently used to populate the data of the CHCD. 
 | **LEEB_SISTERS** | Leopold Leeb, "200 Ssps engl.": unpublished manuscript, Beijing 2005. |
 | **LICHT** | Sr. Edberte (Eva Irene) Moroder SSpS. _Licht im Dunkeln. China Band 13: Daten – Übersichten zur Geschichte SSpS in China und zur gesamten Kongregation._ Stockerau b. Wien: St. Kolomankloster, 2007. |
 | **LIPSHITS_1947** | Липшиц С. Ю. Русские ботаники. Биографо-библиографический словарь. Т. I. А-Б / Составил С. Ю. Липшиц. М.: Издательство Московского общества испытателей природы, 1947. - XI, 335 с |
+| **LÖWENTHAL_CHART1** | Löwenthal, Rudolf. "Chart I (in three sheets): The Catholic Press of China." _The Religious Periodical Press in China_. Sinological Series n. 57. Beijing: The Synodal Commission in China, 1940. |
+| **LÖWENTHAL_CHART2** | Löwenthal, Rudolf. "Chart II (in one sheet): The Catholic Press in Manchuria." _The Religious Periodical Press in China_. Sinological Series n. 57. Beijing: The Synodal Commission in China, 1940. |
+| **LÖWENTHAL_CHART3** | Löwenthal, Rudolf. "Chart III (in three sheets): The Protestant Press of China." _The Religious Periodical Press in China_. Sinological Series n. 57. Beijing: The Synodal Commission in China, 1940. |
 | **LOWENBERG_1878** | Löwenberg J. Fuß, Georg Albert von // Allgemeine Deutsche Biographie — L: 1878. — Vol. 8. — S. 252. https://daten.digitale-sammlungen.de/bsb00008366/images/index.html?seite=254. |
 | **LP** | Lauren F. Phister. "The legacy of James Legge." International Bulletin of Missionary Research 22, no. 2 (1998). |
 | **MALEK_2006** | Malek, Roman. "In memoriam Heinrich Busch (1912–2002) und Eugen Feifel (1902–1999)." _Monumenta Serica_ LIV (2006): 491-518. |
