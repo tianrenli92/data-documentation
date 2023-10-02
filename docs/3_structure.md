@@ -41,7 +41,7 @@ The example image and four definitions below offer a basic understanding of the 
 ---
 
 ## Graph Schema
-The CHCD has six main kinds of nodes (i.e. six node labels) in the database: `:Person`, `:CorporateEntity`, `:Institution`, `:Event`, `:Publication`, and `GeneralArea`. In addition, there are five kinds of geographic nodes which represent the five different levels of geography in the database: `:Village`, `:Township`, `:County`, `:Prefecture`, and `:Province`
+The CHCD has six main kinds of nodes (i.e. six node labels) in the database: `:Person`, `:CorporateEntity`, `:Institution`, `:Event`, `:Publication`, and `:GeneralArea`. In addition, there are five kinds of geographic nodes which represent the five different levels of geography in the database: `:Village`, `:Township`, `:County`, `:Prefecture`, and `:Province`
 
 These six main nodes and five geographic nodes are connected by eight kinds of relationship (i.e. eight edge labels) in the database: `:PART_OF`, `:RELATED_TO`, `:CONNECTED_TO`, `:PRESENT_AT`, `:INVOLVED_WITH`, `:LOCATED_IN`, `:LINKED_TO`, and `:INSIDE_OF`.
 
