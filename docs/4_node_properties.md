@@ -152,6 +152,7 @@ Nodes contain the largest array of properties within the database. These propert
 ---
 
 ## Publication Node Properties
+
 | KEY | NOTE | TYPE |
 |:-----|:-----|:-----|
 | **id** | Unique ID for each node. Prefixed with "B_" | STRING |
@@ -183,6 +184,7 @@ Nodes contain the largest array of properties within the database. These propert
 ---
 
 ## General Area Node Properties
+
 | KEY | NOTE | TYPE |
 |:-----|:-----|:-----|
 | **id** | Unique ID for each node. Prefixed with "G_" | STRING |
