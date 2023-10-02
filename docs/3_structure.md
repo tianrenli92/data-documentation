@@ -99,4 +99,4 @@ When users download the database and use its native Neo4j environment, they can 
 ### Easy to Grow
 {: .no_toc }
 
-The six primary node types are not the only kind of historical entities or information that could be placed in a database. While initial data collection will focus on these entities, the graph database structure can grow to include different kinds of information. This future growth will further enrich any data already recorded. The edition of two new node types in verion 2 of the CHCD shows the flexibility that this design affords. 
+The six primary node types are not the only kind of historical entities or information that could be placed in a database. While initial data collection will focus on these entities, the graph database structure can grow to include different kinds of information. This future growth will further enrich any data already recorded. The edition of two new node types (`:GeneralArea` and `:Publication`) in verion 2 of the CHCD shows the flexibility that this design affords. 
