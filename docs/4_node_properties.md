@@ -189,7 +189,7 @@ Nodes contain the largest array of properties within the database. These propert
 |:-----|:-----|:-----|
 | **id** | Unique ID for each node. Prefixed with "G_" | STRING |
 | **name_western** | Name is the format _General Area (Location)_ where location is the most common English name for the region this area represents. | STRING |
-| **alternative_name_western** | Other names for the location in Western languages. | STRING |
+| **alternative_name_western** |	Other names for the location in Western languages or various romanizations of Chinese .	| STRING |
 
 ---
 
