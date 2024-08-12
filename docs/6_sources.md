@@ -241,6 +241,7 @@ Below is a list of all sources currently used to populate the data of the CHCD. 
 | **WJY** | William J. Young. "William E. Soothill (1861-1935): Missionary and Sinologist." 2012. http://www.methodistheritage.org.uk/missionary-history-young-william-soothill-2012.pdf |
 | **WL** | William Lockhart. The Medical Missionary in China: A Narrative of Twenty Years Experience. London: Hurst and Blackett Publishers, 1861. |
 | **XIAO_2009** | Xiao Yuqiu 肖玉秋. Eguo chuanjiaotuan yu Qingdai ZhongE wenhua jiaoliu 俄國傳教團與清代中俄文化交流 [The Russian Orthodox Mission in Beijing and Sino-Russian Cultural Exchange during the Qing dynasty]. (Tianjin: Tianjin renmin chubanshe, 2009). |
+| **YOUNG_1950** | Young, James L. R., “Exit Papers from China,” July 6, 1950. Private Collection of Nancy Grove. Young, James L. R., “Biography of Dr. James L. R. Young,” September 16, 1950. Private Collection of Nancy Grove.|
 | **ZHUKOV_2018** | Жуков В.Ю., Кульганек И.В., "Монголовед О. М. Ковалевский и его родные: биографический этюд", МЕЖДУНАРОДНАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ Первые Ковалевские чтения, 24-26 сентября 2018 г. Программа, Тезисы. Казань - Санкт-Петербург, 2018, 33-37. |
 | **ZMEEV_1886** | Змеев, Лев Федорович (1832-1901). Русские врачи писатели / Сост. Лев Фед. Змеев, д-р мед. Вып. 1 - Санкт-Петербург : [скл. изд. у авт.], 1886 - Т 1. |
 | **ZMP5_1970** | Журнал Московской Патриархии 1970 №5, 48. |
