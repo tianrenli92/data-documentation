@@ -137,6 +137,7 @@ Below is a list of all sources currently used to populate the data of the CHCD. 
 | **HCM** | Who's Who in the Far East, 1906-7. Hongkong China Mail, 1907. |
 | **HCN** | Helen C. Nevius. Our Life in China. New York: Robert Carter and Borthers, 1869.  |
 | **HENNINGER_1956** | Henninger, Joseph. "P. Wilhelm Schmidt, S.V.D. (1868–1954): Eine biographische Skizze." _Anthropos_ 51, nos. 1-2 (1956): 19–60. |
+| **HOLLISTER_2010** | Hollister, Margaret. _Inheriting China: A Memoir_. 1st ed. Washington D.C.: Eastern Branch Press, 2010. |
 | **HOSTER_2009** | Hoster, Barbara. "In memoriam: P. Peter Venne SVD (1913–2009)." _China heute_ 28, no. 2 (2009): 84-85. |
 | **HOSTER_2018** | "_Konfuzius und sein Kult (Confucius and His Cult, 1928)_. A Monograph by the Catholic China Missionary Franz Xaver Biallas S.V.D. as a Contribution to Sinology." _Monumenta Serica_ 66, no. 1 (2018): 131-160. |
 | **HRW** | H.R. Williamson. British Baptists in China, 1845-1952. London: Carey Kingsgate Press, 1957 |
