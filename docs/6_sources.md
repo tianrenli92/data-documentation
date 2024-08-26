@@ -191,6 +191,7 @@ Below is a list of all sources currently used to populate the data of the CHCD. 
 | **OE_V27** | ИСАИЯ (Поликин Иван Федорович; 1830/31 - 1871), иером., член 14-й и 15-й Пекинских духовных миссий // Православная Энциклопедия под редакцией Патриарха Московского и всея Руси Кипилла, Том XXVII (2011), 140, 141. https://www.pravenc.ru/text/674840.html |
 | **PA-MG** | "Passionist Missionary Groups sent to China 1921-1948." Passionist Historical Archives. https://passionistarchives.org/explore-our-history/international-passionist-history/china-historical-summary/passionist-missionary-groups-sent-to-china-1921-1948/. Date supplied in code. |
 | **PANG_2009** | Архимандрит Иларион (Лежайский) и первая Пекинская Духовная Миссия (1717–1729 гг.) // Китайська цивілізаця: традицї та сучасніть. Збрник статей. – Київ, 2009. – С. 103–108. |
+| **PARK_1984** | Polly Park._To Save their Heathen Souls". Voyage and Life in Fouchou, China. Based on Wentworth Diaries and Letters, 1854-1858_. Philadelphia; Pickwick Publications, 1984. |
 | **PETERBURGSKII_1913** | Петербургский Некрополь. С-Ф. Т.4. - СПб: Типография М.М. Стасюлевича, 1913. |
 | **PHA** | "Passionists Missionaries in Hunan, China." Passionist Historical Archives. https://passionistarchives.org/explore-our-history/international-passionist-history/china-historical-summary/passionist-missionaries-in-hunan-china/ |
 | **PIME** | “Pontificio Istituto Missioni Estere - PIME.” PIME Archives. |
