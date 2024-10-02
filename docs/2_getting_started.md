@@ -50,9 +50,19 @@ Once the terminal is open, run the following commands.
 cd bin
 ```
 ```
-neo4j-admin import --multiline-fields=true --database=neo4j --nodes=../import/chcd-v-1-nodes.csv --relationships=../import/chcd-v-1-rels.csv
+neo4j-admin database import full --multiline-fields=true --delimiter=@ --nodes=import/chcd_v2.3_nodes.csv --relationships=import/chcd_v2.3_edges.csv
 ```
-- **Start Database**: Press the `Start` button start the database. Then, press the `Open` button to open Neo4j Desktop Browser.
+- **Start Database**: Press the `Start` button to start the database.
+  <p style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/d54cd6e2-3c62-4376-b187-722482e5dbef" width="350" style="border: 2px black solid"/>
+  </p>
+- **Open Database**: Press the `Open` button to open the database. You can also use [Neo4j Bloom](https://neo4j.com/docs/bloom-user-guide/current/) to visualize it.
+  <p style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/02700d1b-a5f9-44d5-91c4-2898aaef3846" width="350" style="border: 2px black solid"/>
+  </p>
+  <p style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/1bd5abf4-84ac-4706-90a4-d977095f0713" width="350" style="border: 2px black solid"/>
+  </p>
 
 ---
 
